@@ -1,0 +1,16 @@
+[package]
+name = "space-object-tracking"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+macroquad = "0.4.13"
+sgp4 = "2.2.0"  # Ensure you use the latest version
+
+[[bin]]
+name = "macroquad"
+path = "src/macroquad.rs"
+
+[[bin]]
+name = "egui"
+path = "src/egui.rs"
